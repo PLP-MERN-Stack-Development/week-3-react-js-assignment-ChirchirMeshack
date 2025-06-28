@@ -13,7 +13,7 @@ function ApiDataList() {
   const [page, setPage] = useState(1);
   const [search, setSearch] = useState('');
   const [total, setTotal] = useState(0);
-  const limit = 6; // items per page
+  const limit = 4; // items per page
 
   useEffect(() => {
     setLoading(true);
