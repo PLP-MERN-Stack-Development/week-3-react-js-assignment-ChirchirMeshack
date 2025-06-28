@@ -1,0 +1,6 @@
+/* Minimal index.css to satisfy Vite and Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";

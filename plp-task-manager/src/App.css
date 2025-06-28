@@ -1,0 +1,15 @@
+/* App global styles for PLP Task Manager */
+
+/* Remove @apply and use Tailwind classes directly in JSX. This file can be left empty or used for custom CSS only. */
+
+/* Example: Custom animation or override (optional) */
+/*
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+*/
+@import "tailwindcss";
