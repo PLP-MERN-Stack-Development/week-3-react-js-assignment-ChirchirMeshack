@@ -4,6 +4,7 @@ import Layout from './layouts'; // Layout component wraps Navbar, Footer, and ma
 import Card from './components/Card'; // Card component for boxed content layout
 import Button from './components/Button'; // Reusable Button component with variants
 import TaskManager from './components/TaskManager';
+import ApiData from './components/ApiDataList';
 
 /**
  * Main App component for the PLP Task Manager
@@ -25,7 +26,7 @@ function App() {
           <Card>
             <h2 className="text-2xl font-bold mb-4">API Data</h2>
             <p className="text-gray-500 dark:text-gray-400">
-              Fetch and display data from an API here
+              <ApiData/>
             </p>
           </Card>
         </div>
