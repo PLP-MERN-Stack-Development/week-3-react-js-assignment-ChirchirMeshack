@@ -50,12 +50,7 @@ function TaskManager() {
     <div className="max-w-md mx-auto p-4 bg-white dark:bg-gray-900 rounded shadow mt-8">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-bold text-gray-800 dark:text-gray-100">Task Manager</h2>
-        <button
-          onClick={toggleTheme}
-          className="px-2 py-1 rounded text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600 transition"
-        >
-          {theme === 'dark' ? '🌙 Dark' : '☀️ Light'}
-        </button>
+        {/* Theme toggle button moved to Navbar */}
       </div>
       <form onSubmit={addTask} className="flex mb-4">
         <input
